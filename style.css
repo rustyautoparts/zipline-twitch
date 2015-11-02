@@ -1,0 +1,48 @@
+body {
+  background-color: gray;
+  font-family: 'Oxygen', sans-serif;
+}
+
+header {
+  background: #ffcc44;
+}
+
+header > h1 {
+  text-align: center;
+}
+
+.container {
+  width: 400px;
+  margin: 0 auto;
+}
+
+#streams {
+  background: #ffffff;
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+}
+
+.stream {
+  height: 75px;
+}
+
+.stream a {
+  border: 1px solid red;
+  display: block;
+}
+
+.stream h3 {
+  margin:0;
+}
+
+.stream .avatar {
+  border-radius: 25px;
+  float: left;
+  margin: 5px;
+  width:50px;
+}
+
+.status {
+  margin: 0;
+}
